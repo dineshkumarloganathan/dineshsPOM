@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2173" started-at="2016-07-19T18:40:10Z" finished-at="2016-07-19T18:40:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2173" started-at="2016-07-19T18:40:10Z" finished-at="2016-07-19T18:40:12Z">
+      <class name="testcases.TC003_CreateLead">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC003_CreateLead@171769e]" name="beforeSuite" is-config="true" duration-ms="1237" started-at="2016-07-20T00:10:09Z" finished-at="2016-07-20T00:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC003_CreateLead@171769e]" name="beforeTest" is-config="true" duration-ms="1" started-at="2016-07-20T00:10:10Z" finished-at="2016-07-20T00:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.TC003_CreateLead@171769e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-07-20T00:10:10Z" finished-at="2016-07-20T00:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC003_CreateLead@171769e]" name="login" duration-ms="2121" started-at="2016-07-20T00:10:10Z" data-provider="fetchData" finished-at="2016-07-20T00:10:12Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+The data provider is trying to pass 3 parameters but the method testcases.TC003_CreateLead#login takes 5 and TestNG is unable in inject a suitable object]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+The data provider is trying to pass 3 parameters but the method testcases.TC003_CreateLead#login takes 5 and TestNG is unable in inject a suitable object
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1247)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1118)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 3
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1245)
+	... 17 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC003_CreateLead@171769e]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-07-20T00:10:12Z" finished-at="2016-07-20T00:10:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC003_CreateLead@171769e]" name="afterSuite" is-config="true" duration-ms="1096" started-at="2016-07-20T00:10:13Z" finished-at="2016-07-20T00:10:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.TC003_CreateLead -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
