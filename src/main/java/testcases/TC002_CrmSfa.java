@@ -15,8 +15,8 @@ public class TC002_CrmSfa extends OpentapsWrappers{
 		new LoginPage()
 		.enterUserName(userName)
 		.enterPassword(passWord)
-		.clickLogin()
-		.clicklogout();
+		.clickLogin();
+		//.clicklogout();
 	}
 	@BeforeClass
 	public void beforeClass() {
