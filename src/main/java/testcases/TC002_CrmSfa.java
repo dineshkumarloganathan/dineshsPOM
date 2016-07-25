@@ -16,8 +16,8 @@ public class TC002_CrmSfa extends OpentapsWrappers{
 		.enterUserName(userName)
 		.enterPassword(passWord)
 		.clickLoginForFailure()
-		.clickLogin()
-		.clickcrmsfalink();
+		.clickLogin();
+		//clickcrmsfalink();
 		
 	}
 	@BeforeClass
